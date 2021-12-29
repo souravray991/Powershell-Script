@@ -5,3 +5,4 @@ $output = for ( $i = $startDate; $i -le $endDate; $i=$i.AddDays(1) ) {
     } 
 $count = ($output).Count$output | Out-GridView -Title "Date Range - Total Count: $count"
 $output | clip 
+#PS to list all days with dates based on date range
